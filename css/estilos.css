@@ -1,0 +1,368 @@
+/* CSS for POC - American fusion buffet & sushi Website
+ * All rights reserved.
+ * CSS and HTML by Ignacio Salcedo. ignacio@ignacio-profile.com
+ */
+
+@font-face {
+	font-family: Avant;
+	src: url('avant.otf');
+}
+
+body {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	background:url(../images/back.jpg) center top no-repeat black;
+	text-align:center;
+	overflow-x:hidden;
+}
+img {
+	border:none;
+}
+#menuSup {
+	width:100%;
+	height:42px;
+	background:url(../images/backmenu.jpg) bottom repeat-x black;
+}
+#menuSup #botonesMenuSup{
+	height:inherit;
+	width:1035px;
+	text-align:right;
+	margin:auto;
+	padding-top:5px;
+}
+#menuSup #botonesMenuSup p{
+	margin:0px;
+	padding:0px;
+	color:#c57502;
+	font-size:13px;
+	display:inline;
+	font-family:Avant;
+}
+#menuSup #botonesMenuSup h2{
+	margin:0px;
+	padding:0px;
+	display:inline;
+	color:#c57502;
+	font-size:16px;
+	font-family:Avant;
+	font-weight:normal;
+}
+#menuSup #botonesMenuSup a{
+	margin:0px 2px 0px 5px;
+	padding:0px;
+	display:inline;
+	font-size:16px;
+	color:white;
+	font-family:Avant;
+}
+#menuSup #botonesMenuSup .sep{
+	border-left:solid 1px #333333;
+	padding-left:10px;
+}
+#menuSup #botonesMenuSup .sep2{
+	border-left:solid 1px #333333;
+	padding-left:10px;
+	color:#C57502;
+}
+#contenedor {
+	width:auto
+	margin:auto;
+	padding:0px;
+}
+#contenedorInfo{
+	width:1035px;
+	margin:auto;
+	padding:0px;
+}
+#contenedorInfo .ColumIzq{
+	height:inherit;
+	width:209px;
+	float:left;
+	border-right:solid black 3px;
+}
+#contenedorInfo .ColumIzq .menuIzq ul{
+	list-style:none;
+	text-align:right;
+	margin:40px 0px 0px 0px;
+}
+#contenedorInfo .ColumIzq .menuIzq li{
+	margin:10px 0px 0px 0px;
+}
+#contenedorInfo .ColumIzq .menuIzq a{
+	height:16px;
+	display:block;
+	font-size:16px;
+	padding-right:20px;
+	text-decoration:none;
+	font-family:Avant;
+	color:white;
+}
+#contenedorInfo .ColumIzq .menuIzq a:hover{
+	background:url(../images/ind.png) right no-repeat;
+}
+#contenedorInfo .ColumIzq .social{
+	width:156px;
+	height:auto;
+	border-top:solid 2px #c57502;
+	margin:20px auto 0px auto;
+	padding:20px 0px 0px 0px;
+	text-align:right;
+}
+#contenedorInfo .ColumIzq .social p{
+	margin:0px 10px 0px auto;
+	color:white;
+	font-size:16px;
+	font-family:Avant;
+	display:inline-block;
+}
+#contenedorInfo .ColumIzq .social a{
+	float:right;
+}
+#contenedorInfo .ColumCent{
+	height:inherit;
+	width:823px;
+	float:left;
+}
+#contenedorInfo .ColumCentA{
+	height:inherit;
+	width:780px;
+	float:left;
+}
+#contenedorInfo .Titulo2{
+	height:auto;
+	width:auto;
+	text-align:left;
+}
+#contenedorInfo .ColumCent .txtCentCG{
+	height:auto;
+	width:537px;
+	float:left;
+	text-align:left;
+}
+#contenedorInfo .ColumCent .txtCentCGcontact{
+	height:auto;
+	width:352px;
+	float:left;
+	text-align:left;
+}
+#contenedorInfo .ColumCent .txtCentCGcontact .form{
+	height:358px;
+	width:314px;
+	margin:0px 0px 120px 30px;
+	float:left;
+	background:url(../images/backForm.png) no-repeat;
+}
+#contenedorInfo .ColumCent .txtCentCGcontact .form table textarea{
+	height: 100px;
+    width: 265px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+}
+#contenedorInfo .ColumCent .txtCentCGcontact .form table input{
+	border: 1px solid #CCCCCC;
+    color: #666666;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+    width: 96%;
+}
+#contenedorInfo .ColumCent .txtCentCGcontact .form table p{
+	font-size:13px;
+    padding: 0px 0px 0px 15px;
+	margin:20px 0px 0px 0px;
+    color: white;
+}
+#contenedorInfo .ColumCent .txtCentCGcontact .form table{
+    padding: 0px 0px 0px 0px;
+	margin:0px;
+	height:auto;
+}
+#contenedorInfo .ColumCentA .txtCentA{
+	height:auto;
+	width:537px;
+	float:left;
+	text-align:left;
+}
+#contenedorInfo .ColumCent .txtCent{
+	height:505px;
+	width:293px;
+	float:left;
+	text-align:left;
+}
+#contenedorInfo .ColumCent .txtCent p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:30px;
+	color:white;
+	margin:30px 40px 20px 40px;
+}
+#contenedorInfo .ColumCent .txtCentCG p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:30px;
+	color:white;
+	margin:30px 40px 20px 40px;
+}
+#contenedorInfo .ColumCent .txtCentCG a{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#c57502;
+}
+#contenedorInfo .ColumCentA .txtCent p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:20px;
+	color:white;
+	margin:30px 40px 20px 40px;
+}
+#contenedorInfo .ColumCentA .txtCentA p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:20px;
+	color:white;
+	margin:30px 40px 20px 40px;
+}
+#contenedorInfo .ColumCent .txtCentCG .coupon{
+	margin:auto;
+	width:435px;
+}
+#contenedorInfo .ColumCent .txtCentCG .address{
+	margin:auto;
+	width:435px;
+}
+#contenedorInfo .ColumCent .txtCentCG .address .icon1{
+	display:inline-block;
+	height:55px;
+	width:34px;
+	margin:10px 15px 0px 20px;
+}
+#contenedorInfo .ColumCent .txtCentCG .address .icon2{
+	display:inline-block;
+	height:55px;
+	width:43px;
+	margin:10px 15px 50px 50px;
+}
+#contenedorInfo .ColumCent .txtCentCG .address p{
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:20px;
+	color:white;
+	margin:0px 0px 0px 0px;
+}
+#contenedorInfo .ColumCent .txtCentCG .address a{
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#c57502;
+	margin:0px 0px 0px 0px;
+}
+#contenedorInfo .contenedorCent{
+	height:505px;
+	width:530px;
+	float:left;
+}
+#contenedorInfo .ColumCentA .contenedorCent2{
+	height:inherit;
+	width:243px;
+	position:relative;
+	float:left;
+	top:-80px;
+}
+#contenedorInfo .ColumCentA .contenedorCent2 img{
+	margin:0px 0px 20px 0px
+}
+#contenedorInfo .ColumCent .contenedorCent2{
+	height:inherit;
+	width:243px;
+	float:left;
+}
+#contenedorInfo .ColumCent .contenedorCent2 img{
+	margin:30px 0px 20px 0px
+}
+#contenedorInfo .ColumCent .contenedorCent3{
+	height:inherit;
+	text-align:left;
+	margin-left:20px;
+	width:451px;
+	float:left;
+}
+#contenedorInfo .ColumCent .contenedorCent3 .bborder{
+	font-family:Avant;
+	font-size:13px;
+	color:#c57502;
+	width:inherit;
+	border-bottom:solid 2px #c57502;
+}
+#contenedorInfo .ColumCent .contenedorCent3 .icon1{
+	display:inline-block;
+	height:55px;
+	width:34px;
+	margin:10px 15px 0px 20px;
+}
+#contenedorInfo .ColumCent .contenedorCent3 .icon2{
+	display:inline-block;
+	height:55px;
+	width:43px;
+	margin:10px 15px 0px 20px;
+}
+#contenedorInfo .ColumCent .contenedorCent3 .icon3{
+	display:inline-block;
+	height:55px;
+	width:58px;
+	margin:10px 15px 0px 20px;
+}
+#contenedorInfo .ColumCent .contenedorCent3 p{
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:white;
+	margin:0px 0px 0px 0px;
+}
+#contenedorInfo .ColumCent .contenedorCent3 a{
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#c57502;
+	margin:0px 0px 0px 0px;
+}
+#contenedorInfo .contenedorCent .tela{
+	height:166px;
+	width:15000px;
+	float:left;
+	background:url(../images/tela.png) right repeat-x;
+	z-index:0; 
+}
+#contenedorInfo .contenedorCent .platos{
+	height:auto;
+	width:auto;
+	float:left;
+	position:relative;
+	z-index:1;
+	top:-90px;
+	margin:0px; 
+}
+#contenedorInfo .contenedorCent .gif{
+	height:auto;
+	width:auto;
+	float:right;
+	margin:0px;
+	z-index:2;
+	position:relative;
+	top:-90px;
+}
+#fooder {
+	float:left;
+	height:120px;
+	width:100%;
+	background:black;
+}
+#fooder p{
+	color:#c57502;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:40px 0px 0px 0px;
+}
+
+
